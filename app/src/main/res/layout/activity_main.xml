@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:padding="25dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="select city"
+            android:textSize="@dimen/textsize"
+            android:padding="15dp"
+            />
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="select city"
+            android:padding="15dp"
+            android:entries="@array/cities"
+            android:id="@+id/spin_cities"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="select state"
+            android:textSize="@dimen/textsize"
+            android:padding="15dp"
+            />
+        <Spinner
+            android:id="@+id/spin_states"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="select state"
+            android:padding="15dp"
+            android:entries="@array/states"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="select village"
+            android:textSize="@dimen/textsize"
+            android:padding="15dp"
+            />
+        <Spinner
+            android:id="@+id/spin_villages"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="select state"
+            android:padding="15dp"
+            android:entries="@array/villages"
+            />
+    </LinearLayout>
+
+<Button
+    android:id="@+id/submit_button"
+    android:layout_gravity="center"
+    android:layout_margin="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="submit"
+    android:textSize="@dimen/textsize"/>
+</LinearLayout>

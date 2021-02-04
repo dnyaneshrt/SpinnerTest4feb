@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SpinnerTest</string>
+
+    <string-array name="cities">
+        <item>pune</item>
+        <item>banglore</item>
+        <item>chennai</item>
+        <item>mumabi</item>
+
+    </string-array>
+
+
+    <string-array name="states">
+        <item>maharashtra</item>
+        <item>rajashtan</item>
+        <item>goa</item>
+        <item>tamilnadu</item>
+
+    </string-array>
+
+
+    <string-array name="villages">
+        <item>narhe</item>
+        <item>ambegaon</item>
+        <item>wagholi</item>
+        <item>vadagon</item>
+
+    </string-array>
+</resources>
