@@ -62,6 +62,10 @@ sp1?.onItemSelectedListener= object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
              myselectedvillage=  sp3?.getItemAtPosition(position).toString()
 
+
+
+                //database logic here to store
+
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -71,6 +75,12 @@ sp1?.onItemSelectedListener= object : AdapterView.OnItemSelectedListener {
         }
 
         btn?.setOnClickListener {
+
+
+
+
+
+
             var intent=Intent(this,DataActivity::class.java)
             intent.putExtra("mycity",myselectedcity)
 
@@ -79,6 +89,8 @@ sp1?.onItemSelectedListener= object : AdapterView.OnItemSelectedListener {
             intent.putExtra("myvillage",myselectedvillage)
             startActivity(intent)
 
+
+            //
 
 
         }
